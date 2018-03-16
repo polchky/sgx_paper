@@ -1,0 +1,93 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{{\tt DOI:}\penalty0{#1}\ }
+  \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
+
+\bibitem{botta_survey}
+{Alessio Botta}, {Walter De~Donato}, {Valerio Persico}, {and} {Antonio
+  Pescap{\'e}}. 2016.
+\newblock \showarticletitle{Integration of cloud computing and internet of
+  things: a survey}.
+\newblock {\em Future Generation Computer Systems\/}  {56} (2016), 684--700.
+\newblock
+
+
+\bibitem{popa_cryptdb}
+{Raluca~Ada Popa}, {Catherine M.~S. Redfield}, {Nickolai Zeldovich}, {and}
+  {Hari Balakrishnan}. 2011.
+\newblock \showarticletitle{CryptDB: Protecting Confidentiality with Encrypted
+  Query Processing}. In {\em Proceedings of the Twenty-Third ACM Symposium on
+  Operating Systems Principles} {\em (SOSP '11)}. ACM, New York, NY, USA,
+  85--100.
+\newblock
+\showISBNx{978-1-4503-0977-6}
+
+
+\bibitem{schuster_vc3}
+{Felix Schuster}, {Manuel Costa}, {C{\'e}dric Fournet}, {Christos Gkantsidis},
+  {Marcus Peinado}, {Gloria Mainar-Ruiz}, {and} {Mark Russinovich}. 2015.
+\newblock \showarticletitle{VC3: Trustworthy data analytics in the cloud using
+  SGX}. In {\em Security and Privacy (SP), 2015 IEEE Symposium on}. IEEE,
+  38--54.
+\newblock
+
+
+\bibitem{shafagh_talos}
+{Hossein Shafagh}, {Anwar Hithnawi}, {Andreas Droescher}, {Simon Duquennoy},
+  {and} {Wen Hu}. 2015.
+\newblock \showarticletitle{Talos: Encrypted Query Processing for the Internet
+  of Things}. In {\em Proceedings of the 13th ACM Conference on Embedded
+  Networked Sensor Systems} {\em (SenSys '15)}. ACM, New York, NY, USA,
+  197--210.
+\newblock
+\showISBNx{978-1-4503-3631-4}
+
+
+\bibitem{sicari_privacy_survey}
+{Sabrina Sicari}, {Alessandra Rizzardi}, {Luigi~Alfredo Grieco}, {and} {Alberto
+  Coen-Porisini}. 2015.
+\newblock \showarticletitle{Security, privacy and trust in Internet of Things:
+  The road ahead}.
+\newblock {\em Computer Networks\/}  {76} (2015), 146--164.
+\newblock
+
+
+\bibitem{yan_trust_survey}
+{Zheng Yan}, {Peng Zhang}, {and} {Athanasios~V Vasilakos}. 2014.
+\newblock \showarticletitle{A survey on trust management for Internet of
+  Things}.
+\newblock {\em Journal of network and computer applications\/}  {42} (2014),
+  120--134.
+\newblock
+
+
+\end{thebibliography}
